@@ -12,10 +12,9 @@ def word_substituter(string)
     else
       word
     end
-
   end.join(' ')
 end
 
 def bulk_tweet_shortener(tweet_array)
-  puts word_substituter(tweet_array)
+  word_substituter    
 end
