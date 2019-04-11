@@ -5,5 +5,5 @@ words = {"hello" => "hi", "to" => "2", "two" => "2", "too" => "2", "for" => "4",
 end
 
 def word_substituter(string)
-dictionary.values
+  string.split
 end
