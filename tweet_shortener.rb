@@ -6,5 +6,4 @@ end
 
 def word_substituter(string)
   string.split(/ /)
-  dictionary
 end
