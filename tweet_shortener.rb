@@ -5,9 +5,9 @@ words = {"hello" => "hi", "to" => "2", "two" => "2", "too" => "2", "for" => "4",
 end
 
 def word_substituter(string)
-  
-  string.split(/ /).each do |word| 
+
+  string.split(/ /).each do |word|
     word.replace(dictionary.keys)
-      
+
   end
 end
