@@ -5,6 +5,7 @@ words = {"hello" => "hi", "to" => "2", "two" => "2", "too" => "2", "for" => "4",
 end
 
 def word_substituter(string)
+  new_tweet
   tweet_ary = string.split
   tweet_ary.collect do |word|
     if dictionary.keys.include?(word)
@@ -13,5 +14,4 @@ def word_substituter(string)
       word
     end
   end
-  tweet_ary.join(' ')
 end
