@@ -15,7 +15,7 @@ def word_substituter(string)
             tweet_ary[counter] = subst
       end
     end
-  end  
+  end
 end
 end
 tweet_ary.join(" ")
