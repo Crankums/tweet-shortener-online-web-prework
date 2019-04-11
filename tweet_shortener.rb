@@ -5,9 +5,6 @@ words = {"hello" => "hi", "to" => "2", "two" => "2", "too" => "2", "for" => "4",
 end
 
 def word_substituter(string)
-
-  string.split(/ /).each do |word|
-    word.replace(dictionary.keys)
-
-  end
+  tweet_ary =string.split(/ /)
+  tweet_ary    
 end
