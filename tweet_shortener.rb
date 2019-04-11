@@ -6,5 +6,5 @@ end
 
 def word_substituter(string)
   tweet_ary =string.split(/ /)
-  tweet_ary    
+  tweet_ary
 end
