@@ -17,5 +17,5 @@ def word_substituter(string)
     end
   end
   tweet_ary.join(" ")
-  
+
 end
