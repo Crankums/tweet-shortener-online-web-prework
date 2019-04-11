@@ -5,7 +5,8 @@ words = {"hello" => "hi", "to" => "2", "two" => "2", "too" => "2", "for" => "4",
 end
 
 def word_substituter(string)
-  string.split.collect do |word|
+  tweet_ary = string.split
+  tweet_ary.collect do |word|
     if dictionary.keys.include?(word)
       word = dictionary[word]
     else
