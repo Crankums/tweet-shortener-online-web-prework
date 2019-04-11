@@ -13,10 +13,11 @@ def word_substituter(string)
         dictionary.each do |key, subst|
           if key == word
             tweet_ary[counter] = subst
+          end
+        end
+        counter+=1
       end
     end
   end
-end
-end
 tweet_ary.join(" ")
 end
