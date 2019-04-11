@@ -13,5 +13,5 @@ def word_substituter(string)
       word
     end
 
-  end
+  end.join
 end
