@@ -12,5 +12,6 @@ def word_substituter(string)
     else
       word
     end
+    tweet_ary.join(" ")
   end
 end
