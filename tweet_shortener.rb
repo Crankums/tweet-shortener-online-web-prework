@@ -19,3 +19,4 @@ def word_substituter(string)
   tweet_ary.join(" ")
 end
 end
+end
